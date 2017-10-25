@@ -36,7 +36,7 @@ document.getElementById('btn').onclick = function() {
 		p2.innerHTML += '30' + os.charAt(0).toLowerCase() + sex.charAt(0).toLowerCase() + country;
 		p3.innerHTML += '34' + os.charAt(0).toLowerCase() + sex.charAt(0).toLowerCase() + country;
     
-        post.innerHTML = 'Post: "' + arr[0] + ' ' + arr[1] + ' ' + arr[2] + ' ' + arr[3] + ' ' + arr[4] + '..." ' + country + ' ' + 18 + '<br>' + 'Post: "' + arr[0] + ' ' + arr[1] + ' ' + arr[2] + ' ' + arr[3] + ' ' + arr[4] + '..." ' + country + ' ' + 24 + '<br>' + 'Post: "' + arr[0] + ' ' + arr[1] + ' ' + arr[2] + ' ' + arr[3] + ' ' + arr[4] + '..." ' + country + ' ' + 30 + '<br>' + 'Post: "' + arr[0] + ' ' + arr[1] + ' ' + arr[2] + ' ' + arr[3] + ' ' + arr[4] + '..." ' + country + ' ' + 34 + '<br>';
+        post.innerHTML = 'Post: "' + arr[0] + ' ' + arr[1] + ' ' + arr[2] + ' ' + arr[3] + ' ' + arr[4] + '..." ' + country + ' ' + 18 + '<br>' + 'Post: "' + arr[0] + ' ' + arr[1] + ' ' + arr[2] + ' ' + arr[3] + ' ' + arr[4] + '..." ' + country + ' ' + 24 + '<br>' + 'Post: "' + arr[0] + ' ' + arr[1] + ' ' + arr[2] + ' ' + arr[3] + ' ' + arr[4] + '..." ' + country + ' ' + 30 + '<br>' + 'Post: "' + arr[0] + ' ' + arr[1] + ' ' + arr[2] + ' ' + arr[3] + ' ' + arr[4] + '..." ' + country + ' ' + 34 + '<br>'; 
 	
 
 
