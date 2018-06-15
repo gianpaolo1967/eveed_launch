@@ -12,11 +12,11 @@ document.getElementById('btn').onclick = function() {
 		var country = document.getElementById('country').value;
         var post = document.getElementById('post');
 		country = country.toUpperCase();
-		p0.innerHTML = country;
-		p1.innerHTML = country;
-		p2.innerHTML = country;
-		p3.innerHTML = country;
-		p4.innerHTML = country;
+		p0.innerHTML = 'utm_campaign=' + country;
+		p1.innerHTML = 'utm_campaign=' + country;
+		p2.innerHTML = 'utm_campaign=' + country;
+		p3.innerHTML = 'utm_campaign=' + country;
+		p4.innerHTML = 'utm_campaign=' + country;
 		for (var i = 0; i < arr.length; i++) {
 			if (i % 2 == 0) {
 				p0.innerHTML += arr[i].charAt(0).toUpperCase();
@@ -41,7 +41,7 @@ document.getElementById('btn').onclick = function() {
 		p3.innerHTML += '34' + os.charAt(0).toLowerCase() + sex.charAt(0).toLowerCase();
 		p4.innerHTML += '35' + os.charAt(0).toLowerCase() + sex.charAt(0).toLowerCase();
     
-        post.innerHTML = 'Post: "' + arr[0] + ' ' + arr[1] + ' ' + arr[2] + ' ' + arr[3] + ' ' + arr[4] + '..." ' + country + '_' + 18 + '<br>' + 'Post: "' + arr[0] + ' ' + arr[1] + ' ' + arr[2] + ' ' + arr[3] + ' ' + arr[4] + '..." ' + country + '_' + 24 + '<br>' + 'Post: "' + arr[0] + ' ' + arr[1] + ' ' + arr[2] + ' ' + arr[3] + ' ' + arr[4] + '..." ' + country + '_' + 30 + '<br>' + 'Post: "' + arr[0] + ' ' + arr[1] + ' ' + arr[2] + ' ' + arr[3] + ' ' + arr[4] + '..." ' + country + '_' + 34 + '<br>'; 
+        post.innerHTML = 'Post: "' + arr[0] + ' ' + arr[1] + ' ' + arr[2] + ' ' + arr[3] + ' ' + arr[4] + '..." ' + country + '_' + 18 + os + sex + '<br>' + 'Post: "' + arr[0] + ' ' + arr[1] + ' ' + arr[2] + ' ' + arr[3] + ' ' + arr[4] + '..." ' + country + '_' + 24 + os + sex + '<br>' + 'Post: "' + arr[0] + ' ' + arr[1] + ' ' + arr[2] + ' ' + arr[3] + ' ' + arr[4] + '..." ' + country + '_' + 30 + os + sex + '<br>' + 'Post: "' + arr[0] + ' ' + arr[1] + ' ' + arr[2] + ' ' + arr[3] + ' ' + arr[4] + '..." ' + country + '_' + 34 + os + sex + '<br>'; 
 	
 
 
